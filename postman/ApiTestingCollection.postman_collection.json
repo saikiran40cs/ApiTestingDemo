@@ -1,0 +1,561 @@
+{
+	"info": {
+		"_postman_id": "f750d81b-a8f9-4085-b59d-07f5df51649c",
+		"name": "ApiTestingCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8888/api_testing/product/read.php",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api_testing",
+						"product",
+						"read.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Categories",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8888/api_testing/product/read.php",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"api_testing",
+								"product",
+								"read.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 01 Jun 2021 12:45:04 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1935"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"records\": [\n        {\n            \"id\": \"18\",\n            \"name\": \"Multi-Vitamin (90 capsules)\",\n            \"description\": \"A daily dose of our Multi-Vitamins fulfills a day’s nutritional needs for over 12 vitamins and minerals.\",\n            \"price\": \"10.00\",\n            \"category_id\": \"4\",\n            \"category_name\": \"Supplements\"\n        },\n        {\n            \"id\": \"17\",\n            \"name\": \"Magnesium 250 mg (100 tablets)\",\n            \"description\": \"Magnesium is critical to many bodily processes, and supports nerve, muscle, and heart function.\",\n            \"price\": \"12.00\",\n            \"category_id\": \"4\",\n            \"category_name\": \"Supplements\"\n        },\n        {\n            \"id\": \"16\",\n            \"name\": \"Iron 65 mg (150 caplets)\",\n            \"description\": \"Iron: Re+vive, re+fuel, re+generate, naturally, with H+SPORT Iron. Our supplements are sourced from the purest ingredients—and potency is proven in independent laboratory tests. Iron is essential for transporting oxygen in the body and for the formation of red blood cells.\",\n            \"price\": \"14.00\",\n            \"category_id\": \"4\",\n            \"category_name\": \"Supplements\"\n        },\n        {\n            \"id\": \"15\",\n            \"name\": \"Flaxseed Oil 1000 mg (90 capsule\",\n            \"description\": \"Our Flaxseed Oil contains Omegas 3, 6, and 9 for a heart-healthy option without the use of fish oil.\",\n            \"price\": \"12.00\",\n            \"category_id\": \"4\",\n            \"category_name\": \"Supplements\"\n        },\n        {\n            \"id\": \"14\",\n            \"name\": \"Calcium 400 IU (150 tablets)\",\n            \"description\": \"Our Calcium supports strong bones and teeth and may help prevent osteoporosis.\",\n            \"price\": \"10.00\",\n            \"category_id\": \"4\",\n            \"category_name\": \"Supplements\"\n        },\n        {\n            \"id\": \"13\",\n            \"name\": \"V-Neck Sweater\",\n            \"description\": \"This medium-weight sweater, made from organic knitted cotton and bamboo, is the perfect solution to a chilly night at the campground or a misty walk on the beach.\",\n            \"price\": \"65.00\",\n            \"category_id\": \"1\",\n            \"category_name\": \"Active Wear - Men\"\n        },\n        {\n            \"id\": \"12\",\n            \"name\": \"V-Neck Pullover\",\n            \"description\": \"This organic hemp jersey pullover is perfect in a pinch. Wear for casual days at the office, a game of hoops after work, or running your weekend errands.\",\n            \"price\": \"65.00\",\n            \"category_id\": \"1\",\n            \"category_name\": \"Active Wear - Men\"\n        },\n        {\n            \"id\": \"11\",\n            \"name\": \"Thermal Fleece Jacket\",\n            \"description\": \"Cool red shirt!aOur thermal organic fleece jacket, is brushed on both sides for ultra softness and warmth. This medium-weight jacket is versatile all year around, and can be worn with layers for the winter season.\",\n            \"price\": \"60.00\",\n            \"category_id\": \"1\",\n            \"category_name\": \"Active Wear - Men\"\n        },\n        {\n            \"id\": \"10\",\n            \"name\": \"Skater Graphic T-Shirt\",\n            \"description\": \"Hip at the skate park or around down, our pre-shrunk organic cotton graphic T-shirt has you covered.\",\n            \"price\": \"33.00\",\n            \"category_id\": \"1\",\n            \"category_name\": \"Active Wear - Men\"\n        },\n        {\n            \"id\": \"9\",\n            \"name\": \"Polo Shirt\",\n            \"description\": \"Our pre-shrunk organic cotton polo shirt is perfect for weekend activities, lounging around the house, and casual days at the office. With its triple-stitched sleeves and waistband, our polo has maximum durability.\",\n            \"price\": \"35.00\",\n            \"category_id\": \"1\",\n            \"category_name\": \"Active Wear - Men\"\n        },\n        {\n            \"id\": \"8\",\n            \"name\": \"V-Neck T-Shirt\",\n            \"description\": \"Our pre-shrunk organic cotton t-shirt, with its slightly fitted waist and elegant V-neck is designed to flatter. You’ll want one in every color!\",\n            \"price\": \"17.00\",\n            \"category_id\": \"3\",\n            \"category_name\": \"Active Wear - Unisex\"\n        },\n        {\n            \"id\": \"7\",\n            \"name\": \"Unisex Thermal Vest\",\n            \"description\": \"Our thermal vest, made from organic bamboo with recycled plastic down filling, is a favorite of both men and women. You’ll help the environment, and have a wear-easy piece for many occasions.\",\n            \"price\": \"95.00\",\n            \"category_id\": \"3\",\n            \"category_name\": \"Active Wear - Unisex\"\n        },\n        {\n            \"id\": \"6\",\n            \"name\": \"UItra-Soft Tank Top\",\n            \"description\": \"This versatile tank can be worn in the gym, under a blazer, or for a day out in the sun. Made from our patented organic bamboo and cotton mix, our ultra-soft tank never stops feeling soft, even when you forget the fabric softener.\",\n            \"price\": \"22.00\",\n            \"category_id\": \"2\",\n            \"category_name\": \"Active Wear - Women\"\n        },\n        {\n            \"id\": \"5\",\n            \"name\": \"Stretchy Dance Pants\",\n            \"description\": \"Whether dancing the samba, mastering a yoga pose, or scaling the climbing wall, our stretchy dance pants, made from 80% organic cotton and 20% Lycra, are the most versatile and comfortable workout pants you’ll ever have the pleasure of wearing.\",\n            \"price\": \"55.00\",\n            \"category_id\": \"2\",\n            \"category_name\": \"Active Wear - Women\"\n        },\n        {\n            \"id\": \"4\",\n            \"name\": \"Slicker Jacket\",\n            \"description\": \"Wind and rain are no match for our organic bamboo slicker jacket for men and women. Triple stitched seams, zippered pockets, and a stay-tight hood are just a few features of our best-selling jacket.\",\n            \"price\": \"125.00\",\n            \"category_id\": \"3\",\n            \"category_name\": \"Active Wear - Unisex\"\n        },\n        {\n            \"id\": \"3\",\n            \"name\": \"Grunge Skater Jeans\",\n            \"description\": \"Our boy-cut jeans are for men and women who appreciate that skate park fashions aren’t just for skaters. Made from the softest and most flexible organic cotton denim.\",\n            \"price\": \"68.00\",\n            \"category_id\": \"3\",\n            \"category_name\": \"Active Wear - Unisex\"\n        },\n        {\n            \"id\": \"2\",\n            \"name\": \"Cross-Back Training Tank\",\n            \"description\": \"The most awesome phone of 2013!\",\n            \"price\": \"299.00\",\n            \"category_id\": \"2\",\n            \"category_name\": \"Active Wear - Women\"\n        },\n        {\n            \"id\": \"1\",\n            \"name\": \"Bamboo Thermal Ski Coat\",\n            \"description\": \"You’ll be the most environmentally conscious skier on the slopes – and the most stylish – wearing our fitted bamboo thermal ski coat, made from organic bamboo with recycled plastic down filling.\",\n            \"price\": \"99.00\",\n            \"category_id\": \"2\",\n            \"category_name\": \"Active Wear - Women\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8888/api_testing/product/read_one.php?id=2",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api_testing",
+						"product",
+						"read_one.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Products",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8888/api_testing/product/read_one.php?id=2",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"api_testing",
+								"product",
+								"read_one.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 01 Jun 2021 12:45:21 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "access"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Length",
+							"value": "147"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"2\",\n    \"name\": \"Cross-Back Training Tank\",\n    \"description\": \"The most awesome phone of 2013!\",\n    \"price\": \"299.00\",\n    \"category_id\": \"2\",\n    \"category_name\": \"Active Wear - Women\"\n}"
+				}
+			]
+		},
+		{
+			"name": "CreateProduct",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\":\"Water Bottle\",\"description\":\"This is Kiran Water Bottle\",\"price\":12.00,\"category_id\":3}"
+				},
+				"url": {
+					"raw": "localhost:8888/api_testing/product/create.php",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api_testing",
+						"product",
+						"create.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "CreateProduct",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"name\":\"Water Bottle\",\"description\":\"This is Kiran Water Bottle\",\"price\":12.00,\"category_id\":3}"
+						},
+						"url": {
+							"raw": "localhost:8888/api_testing/product/create.php",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"api_testing",
+								"product",
+								"create.php"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 01 Jun 2021 12:46:50 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "3600"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Length",
+							"value": "54"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Product was created.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "UpdateProduct",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\":\"Water Bottle\",\"description\":\"This is Kiran Water Bottle\",\"price\":18.00,\"category_id\":3}"
+				},
+				"url": {
+					"raw": "localhost:8888/api_testing/product/update.php",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api_testing",
+						"product",
+						"update.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "UpdateProduct",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"name\":\"Water Bottle\",\"description\":\"This is Kiran Water Bottle\",\"price\":18.00,\"category_id\":3}"
+						},
+						"url": {
+							"raw": "localhost:8888/api_testing/product/update.php",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"api_testing",
+								"product",
+								"update.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 01 Jun 2021 12:49:21 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "3600"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Length",
+							"value": "49"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Product updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "DeleteProduct",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"id\": 20}"
+				},
+				"url": {
+					"raw": "localhost:8888/api_testing/product/delete.php",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api_testing",
+						"product",
+						"delete.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "DeleteProduct",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"id\": 20}"
+						},
+						"url": {
+							"raw": "localhost:8888/api_testing/product/delete.php",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"api_testing",
+								"product",
+								"delete.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 01 Jun 2021 12:50:39 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.4.1 mod_perl/2.0.8 Perl/v5.16.3"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "3600"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Length",
+							"value": "54"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Product was deleted.\"\n}"
+				}
+			]
+		}
+	]
+}
